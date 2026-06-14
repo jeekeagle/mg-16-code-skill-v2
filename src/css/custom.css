@@ -11,16 +11,16 @@
 
 :root {
   --ifm-color-primary: #1f4e79;
-  --ifm-color-primary-dark: ;
-  --ifm-color-primary-darker: ;
-  --ifm-color-primary-darkest: ;
-  --ifm-color-primary-light: ;
-  --ifm-color-primary-lighter: ;
-  --ifm-color-primary-lightest: ;
+  --ifm-color-primary-dark: #1a4266;
+  --ifm-color-primary-darker: #173a5a;
+  --ifm-color-primary-darkest: #122e48;
+  --ifm-color-primary-light: #40688d;
+  --ifm-color-primary-lighter: #577a9a;
+  --ifm-color-primary-lightest: #7894ae;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --theme-accent: #b1391d;
-  --theme-accent-soft: ;
+  --theme-accent-soft: rgba(177, 57, 29, 0.15);
 
   /* 字体栈：中文优先（中文用主题字体，拉丁/数字自动用同一字体的拉丁字形，保持统一），
      主题字体没有的字符由 font_en 兜底 */
@@ -36,13 +36,13 @@
 
 [data-theme='dark'] {
   --ifm-color-primary: #c89732;
-  --ifm-color-primary-dark: ;
-  --ifm-color-primary-darker: ;
-  --ifm-color-primary-darkest: ;
-  --ifm-color-primary-light: ;
-  --ifm-color-primary-lighter: ;
-  --ifm-color-primary-lightest: ;
+  --ifm-color-primary-dark: #aa802a;
+  --ifm-color-primary-darker: #967125;
+  --ifm-color-primary-darkest: #785a1e;
+  --ifm-color-primary-light: #d0a650;
+  --ifm-color-primary-lighter: #d5b165;
+  --ifm-color-primary-lightest: #dec084;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --theme-accent: #d96b4a;
-  --theme-accent-soft: ;
+  --theme-accent-soft: rgba(217, 107, 74, 0.15);
 }
